@@ -1,0 +1,17 @@
+.closeToLeft {
+	padding-left: 0;
+	left: 0;
+}
+
+.stickFooter {
+	position: fixed;
+	bottom: 5%;
+}
+
+.fontBig {
+	font-size: large;
+}
+
+.makeItInline {
+	display: inline;
+}

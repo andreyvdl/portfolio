@@ -14,18 +14,28 @@ class FooterComponent extends HTMLElement
 			</p>
 			<p>Want to talk with me?</p>
 			<address>
-				<a href=${mail}>
-					📧 Mail
-				</a><br />
-				<a href=${git}>
-					🐙 Github
-				</a><br />
-				<a href=${insta}>
-					📷 Instagram
-				</a><br />
-				<a href=${link}>
-					👨‍💼 LinkedIn
-				</a>
+				<ul>
+					<li>
+						<a href=${mail}>
+							📧 ${mail.substring("mailto:".length)}
+						</a>
+					</li>
+					<li>
+						<a href=${git}>
+							🐙 Github
+						</a>
+					</li>
+					<li>
+						<a href=${insta}>
+							📷 Instagram
+						</a>
+					</li>
+					<li>
+						<a href=${link}>
+							👨‍💼 LinkedIn
+						</a>
+					</li>
+				</ul>
 			</address>`;
 	}
 }
